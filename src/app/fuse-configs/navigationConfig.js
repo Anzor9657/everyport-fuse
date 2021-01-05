@@ -10,23 +10,79 @@ i18next.addResourceBundle('ar', 'navigation', ar);
 const navigationConfig = [
 	{
 		id: 'categories',
-		title: 'Categories',
-		translate: 'Categories',
+		title: '',
+		translate: '',
 		type: 'group',
 		icon: 'apps',
 		children: [
 			{
-				id: 'users-component',
-				title: 'Users',
-				translate: 'Users',
+				id: 'main-component',
+				title: 'Main',
+				translate: 'Главная',
+				type: 'item',
+				icon: 'local_offer',
+				url: '/trades'
+			},
+			{
+				id: 'airports-component',
+				title: 'Airports',
+				translate: 'Аэропорты',
 				type: 'item',
 				icon: 'people',
 				url: '/users'
 			},
 			{
-				id: 'trades-component',
-				title: 'Trades',
-				translate: 'Trades',
+				id: 'events-component',
+				title: 'Events',
+				translate: 'События',
+				type: 'item',
+				icon: 'local_offer',
+				url: '/trades'
+			},
+			{
+				id: 'schemas-component',
+				title: 'Schemas',
+				translate: 'Схемы',
+				type: 'item',
+				icon: 'local_offer',
+				url: '/trades'
+			},
+			{
+				id: 'content-component',
+				title: 'Content',
+				translate: 'Контент',
+				type: 'item',
+				icon: 'local_offer',
+				url: '/trades'
+			},
+			{
+				id: 'companies-component',
+				title: 'Companies',
+				translate: 'Компании',
+				type: 'item',
+				icon: 'local_offer',
+				url: '/trades'
+			},
+			{
+				id: 'airlanes-component',
+				title: 'Airlanes',
+				translate: 'Авиакомпании',
+				type: 'item',
+				icon: 'local_offer',
+				url: '/trades'
+			},
+			{
+				id: 'users-component',
+				title: 'Users',
+				translate: 'Пользователи',
+				type: 'item',
+				icon: 'local_offer',
+				url: '/trades'
+			},
+			{
+				id: 'logs-component',
+				title: 'Logs',
+				translate: 'Логи',
 				type: 'item',
 				icon: 'local_offer',
 				url: '/trades'
